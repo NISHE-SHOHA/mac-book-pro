@@ -74,7 +74,7 @@ function updateTotal(){
 };
 
 
-document.getElementById('promo-btn').addEventListener('click', function(){
+document.getElementById('promo-btn').addEventListener ('click', function(){
     const pomoCode = document.getElementById('promo-code').value
     usePomoCode(pomoCode);
  });
@@ -92,11 +92,7 @@ function usePomoCode(pomoCode){
     }
     else{
         alert('you enter a wrong pomo code');
-    }
-
- 
-   
-    
-};
+    }   
+}
 
 
