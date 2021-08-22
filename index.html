@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Bootstrap and fonts -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">>
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     <link
+       href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap"
+       rel="stylesheet"
+     />
+    <title>Mac Book </title>
+   <!-- Custom styling -->
+    <style>
+        body {
+          font-family: "Space Grotesk", sans-serif;
+        }
+        </style>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="row gx-5">
+                <div class="col-md-6">
+                <img width="100%" src="/images/mac.png" alt="">
+           </div>
+            <div class="col-md 6">
+                <h1 class="fw-bold custom-color"
+                  >Customize your Blue 24-inch imac with Apple M1 chip.
+              </h1>
+              <p>Apple M1 Chip  with 8-core CPU with 4performance cores and 4 efficiency cores, 7-core GPU,and 16-core Neural Engine 8Gb unified memory 256gb SSD storage Two Thunderbolt/USB 4 points Magic Mouse Magic keyboard- US English.</p>
+
+              <!-- configaretion section -->
+              <h5 class="mt-4 fw-bold">Memory</h5>
+              <button id="btn-memory1"  type="button" class="btn btn-outline-secondary">8GB unified memory</button>
+              <button id="btn-memory2" type="button" class="btn btn-outline-secondary">16Gb unified memory</button> 
+
+              <h5 class="mt-4 fw-bold">Storage</h5>
+              <button  id="btn-storage1" type="button" class="btn btn-outline-secondary">256Gb SSD storage</button>
+              <button id="btn-storage2" type="button" class="btn btn-outline-secondary">512Gb SSD storage</button>
+              <button id="btn-storage3" type="button" class="btn btn-outline-secondary">1TB SSD storage</button>
+
+              <!-- delivery section -->
+              <h5 class="mt-4 fw-bold">Choose your delivery option</h5>
+             <div class="d-flex">
+                <button id="delivery-charge1" type="button" class="btn btn-outline-secondary g-2">Friday, Aug 25 Free prime Delivery</button>
+                <button id="delivery-charge2" type="button" class="btn btn-outline-secondary">Fridar,Aug 21 Delivery charge $20</button>
+             </div>
+
+             <!-- price section -->
+              <div class="cart-item mt-4">
+                <div class="row">
+                   <div class="col-md-8">
+                      <h5 class="fw-bold custom-color">Best Price: </h5>
+                      <h5 class="fw-bold custom-color">Extra Memory Cost:</h5>
+                      <h5 class="fw-bold custom-color">Extra Storage Cost:</h5>
+                      <h5 class="fw-bold custom-color">Delivery Charge:</h5>
+                      <hr>
+                      <h5 class="fw-bold custom-color">Total Price:</h5>
+                   </div>
+
+                   <div class="col-md-4 status">
+                      <h5 class="fw-bold custom-color">$<span id="btn-total">1299</span></h5>
+                      <h5 class="fw-bold custom-color">$<span id="extra-memory">0</span></h5>
+                      <h5 class="fw-bold custom-color">$<span id="storage-price">0</span></h5>
+                      <h5 class="fw-bold custom-color">$<span id="charge">0</span></h5>
+                      <h5 class="fw-bold custom-color">$<span id="total-price">1299</span></h5>
+                   </div>
+                </div>
+             </div>
+             <!-- promo code section -->
+            <h6 class="custom-color">add promo code</h6>
+            <input id="promo-code" class="" type="text">
+            <button id='promo-btn' class="btn btn-danger fw-bold">apply</button>
+
+            <h3 class="custom-color">total:$<span  id="main-total-price">1299</span></h3>
+            <hr class="fw-bold custom-color">
+          </div>
+       </div>
+    </div>
+   </div>         
+   </div>
+   </div>
+     </main>
+
+  <script src="/js/main.js"></script>
+  <!-- bootstrap js-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
+</body>
+</html>
